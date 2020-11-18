@@ -1,3 +1,5 @@
+
+
 const prompt = require('prompt-sync')();
  
 const playerSelection = prompt("what's your choice? Rock, paper or scissors? ").toLowerCase();
@@ -39,7 +41,4 @@ function playRound(playerSelection, computerSelection) {
     }
   }
   
-
-
-//console.log(playRound(playerSelection, computerSelection));
-
+ 
